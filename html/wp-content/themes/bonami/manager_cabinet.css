@@ -1,0 +1,109 @@
+header.cabinet .utp-top {margin-bottom: 50px;}
+header.cabinet .utp-top .logo {padding: 0;}
+.loader_fone{position:absolute;width:100%;height:100%;opacity:.5;background-color:#000;z-index:10;}
+.loader_fone.hiden{display:none;}
+.loader_icon{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);width:64px;height:64px;background:url(icon/loading.gif);z-index:11;}
+
+.manager_cabinet{}
+.manager_cabinet .mk_footer{margin-top:50px;}
+.manager_cabinet .main_table{margin-bottom:50px;}
+.main_table h4{font-size:23px;font-weight:500;line-height:120%;margin-bottom:30px;}
+.manager_cabinet .nav_buttons{justify-content:center;margin-bottom:50px;}
+.manager_cabinet .nav_buttons .b-btn{display:flex;align-items:center;justify-content:center;margin-left:10px;width:150px;}
+.manager_cabinet .operation_buttons{justify-content:space-between;}
+.manager_cabinet .operation_buttons .b-btn{display:flex;align-items:center;margin-left:10px;background:#FDFAEB;border:3px solid #CEC595;color:#CEC595;}
+
+.main_table{justify-content:center;margin:50px 0 50px;}
+.main_table tr{border-bottom:1px solid #CEC595;}
+.main_table td, .main_table th{border-right:1px solid #CEC595;text-align:center; padding: 10px 5px;}
+.main_table td.icons{}
+.main_table td:last-child, .main_table th:last-child{border-right:none;}
+.main_table .service_icons{align-items:center;justify-content:center;}
+.main_table .service_icon{display:block;width:25px;height:25px;background-repeat:no-repeat;background-position:center;}
+.main_table .service_icon.haircut{background-image:url(files/theme/icons/haircut_a.svg);}
+.main_table .service_icon.manicure{background-image:url(files/theme/icons/manicure_a.svg);}
+.main_table .service_icon.pedicure{background-image:url(files/theme/icons/pedicure_a.svg);}
+.main_table .service_icon.cosmetologe{background-image:url(files/theme/icons/cosmetologe_a.svg);}
+.main_table .service_icon.brovist{background-image:url(files/theme/icons/brovist_a.svg);}
+.main_table .service_icon.visage{background-image:url(files/theme/icons/visage_a.svg);}
+
+.im-popup-inside .bonami{background-color:#fff;}
+.im-popup-inside table.ui-datepicker-calendar{width:99.9%;}
+
+.main_table .user_info{line-height:20px;font-size:16px;padding:3px 0;}
+.main_table .user_info .user_name{display:flex;justify-content:flex-start;font-weight:500;cursor:pointer;}
+.main_table .user_name .icon-info{background:url(icon/info.svg) no-repeat;width:15px;height:15px;cursor:pointer;margin-left:15px; padding-right: 15px;}
+.main_table .user_info ul{padding-left:30px;}
+.main_table .user_info ul li.userdata_hiden{display:none;}
+.main_table .user_info ul li{display:flex;justify-content:flex-start;}
+.user_brones tbody td{vertical-align:middle;position:relative;}
+.main_table .remove_user_brone{color:#D66E59;cursor:pointer;}
+footer.manager_cabinet_footer{height:50px;}
+
+.managers.calendar .ui-datepicker-header{position:initial;}
+.managers.calendar .ui-datepicker-title{width:466px;}
+.managers.calendar .im-popup-inside.bonami a.b-popup__close{background-image:url(files/theme/icons/cross_close_white.svg);}
+.managers.calendar .ui-datepicker-next{background:url(files/theme/icons/arrow_right_black_10px.svg) no-repeat center!important;border:none!important;}
+.managers.calendar .ui-datepicker-prev{background:url(files/theme/icons/arrow_left_black_10px.svg) no-repeat center!important;border:none!important;}
+
+.mk-btn{display:block;padding: 10px; background-color: #cec595; color: #000000;cursor:pointer;margin:3px;}
+.mk-btn.testimonial_edit{width:150px;float:right;}
+.service_icons .uner_text{font-size:7px;color:#CEC595;}
+.td-box{display:flex;flex-flow:column nowrap;align-items:center;justify-content:center;}
+.td-box.editable{cursor:pointer;}
+.main_table *.hiden, .mk-btn.menu.hiden{display:none;}
+.mk-btn.menu{display:flex;align-items:center;background:#FDFAEB;color:#CEC595;justify-content:flex-end;border-bottom:1px solid #CEC595;}
+
+.main_table .flax_row_nowrap_item{position:absolute;top:15px;left:10px;}
+.main_table .servise_item{width:50px;height:50px;}
+.main_table .b-checkbox__box{width:25px;height:25px;padding:0px;border:1px solid #CEC595!important;}
+.main_table .b-checkbox__input:checked+.b-checkbox__label{color:#2d323f;}
+.main_table .b-checkbox__input:checked+.b-checkbox__label .b-checkbox__box{border-color:#cca469;}
+.main_table .b-checkbox__input:checked+.b-checkbox__label .b-checkbox__box:before{content:'';position:absolute;margin:auto;background-color:#D66E59;width:15px;height:15px;border-radius:50%;background-image:none;}
+
+.im-popups.manager_popups .no_form{margin:50px 0;}
+.flex-row-wrap.time_periods span{margin-left:10px;}
+.manager_popups .b-popup__content{line-height:25px;}
+
+.mk.cabinet___carousel_content{margin-bottom:50px;}
+.mk.calendar_container.hiden{display:none;}
+.mk.cabinet___carousel_content .cabinet___carousel li.today a{color:#fff;font-size:16px;line-height:120%;}
+.mk.cabinet___carousel_content .cabinet___carousel li a{color:#000;text-decoration:none;display: flex;flex-flow: column;align-items:center;justify-content: center;width: 100%;height: 100%}
+
+.mk_clients_table{font-size:16px;}
+.mk_clients_table .red{color:red;}
+.mk_clients_table .mk-btn{width: 205px;}
+.mk_clients_table .fl_left{text-align:left;}
+.mk_clients_table .fl_right{text-align:right;}
+.mk_clients_table.mk_clients_table_profil th{padding: 7px 10px;}
+.mk_clients_table.mk_clients_table_profil td:nth-child(1){font-size: 20px;}
+.mk_testionials_table td:nth-child(2){font-size: 20px;}
+.mk_clients_table.mk_clients_table_profil th:nth-child(2){min-width: 200px;}
+.mk_clients_table td, 
+.mk_testionials_table td{padding:10px;}
+.mk_testionials_table td:last-child{vertical-align: bottom;}
+.mk_clients_table th, 
+.mk_testionials_table th{padding:5px;font-weight:500;}
+.mk_clients_table .publish{color:#000;}
+
+#edit_client_balans .im-popup-inside .user_name { padding: 20px 10px; font-size: 16px;}
+#remove_user_brone .b-popup__subtitle {margin-top: 10px; font-size: 16px;}
+.user_brones tbody th {text-align:left;}
+
+body .im-popup .im-popup-inside {display: none;}
+body.js-modal .im-popup .im-popup-inside {display: inline-block;}
+
+.manager_popups .input_box{display:flex;margin-bottom:30px;justify-content:space-between;margin-top:30px}
+.manager_popups .input_box input, 
+.manager_popups .input_box select{height:40px;border-radius:3px;border:solid 2px #D66E59;margin-left:20px;}
+.manager_popups .registration .b-btn_red-submit{cursor:pointer;}
+
+.manager_cabinet .find_user_by_fam{margin-bottom:20px;}
+.manager_cabinet .find_user_by_fam input{height:30px;margin-right:10px;border:1px solid #CEC595;}
+.manager_cabinet .find_user_by_fam input.text_input{}
+.manager_cabinet .find_user_by_fam input.b-btn{background-color:#D66E59;color:#FFF;cursor:pointer;}
+.manager_cabinet .find_user_flt{margin-top:20px;}
+.manager_cabinet .find_user_flt.hiden{display:none;}
+
+.im-popups .edit_testimonial.content{width:100%;height:200px;}
+.mk_clients_table .deactivated{opacity:.5;}

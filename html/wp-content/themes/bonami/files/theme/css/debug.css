@@ -1,0 +1,158 @@
+.mob-only {
+	margin-bottom: 20px;
+	display: none;
+}
+
+._comment_user:after {
+	background-position: -402px -191px;
+	width: 2px;
+	height: 10px;
+}
+._comment_user {
+	background-color: #f27676;
+}
+
+
+@media (max-width:620px){
+	.mob-only{
+		display: block!important;
+	}
+}
+
+.user_disable_td {
+	opacity: 1;
+	cursor: default;
+	pointer-events: none;
+}
+
+p.error {
+	color: red;
+	font-size: 13px;
+	white-space: nowrap;
+}
+.b-reservation__cell p.error {
+    position: relative;
+    top: auto;
+    left: auto;
+}
+._rel {
+	position: relative;
+}
+input.error, textarea.error {
+	border: 1px solid red
+}
+.b-section__title.error {
+	color: red;
+}
+
+.b-section_step-5 p.error {
+    bottom: 60px;
+    top: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.align_center {
+	text-align: center;
+}
+.added_padding {
+	margin-bottom: 25px!important;
+}
+.dnone {
+	display: none;
+}
+
+.noborder {
+	border:none;
+	vertical-align: middle;
+}
+
+.form_bottom_wrap {
+	vertical-align: middle;
+	margin-bottom: 20px;
+}
+
+#_error_message {
+	color: red;
+	margin-bottom: 0px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+._remove_all_day {
+	padding: 0 15px;
+	border: 1px solid #cca469;
+	color: #cca469;
+	margin-top: 10px;
+}
+
+.ui-menu-item {
+	list-style: none;
+	color: black;
+	padding-left: 0px!important;
+	list-style-image: none!important;
+}
+.ui-menu-item:before {
+	content: none;
+}
+
+._locker-number {
+	position: absolute;
+	top: 15px;
+	right: 50px;
+	width: 20px;
+	height: 20px;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-weight: 500;
+	font-size: 12px;
+}
+.b-online-account__text-item {
+	height:50px;
+}
+.b-online-account__text-item span {
+	color:red;
+	letter-spacing: 2px;
+	font-size: 70%;
+	display: block;
+	margin-top:7px;
+}
+.b-label-service__title {
+	margin-bottom:7px;
+}
+.b-label-service__title--red {
+	color:red;
+	letter-spacing: 1px;
+	    font-size: 16px;
+			margin-bottom:20px;
+			display: block;
+}
+
+
+@media (max-width: 640px) {
+	.b-services-wrap__cell {
+		min-width: 180px;
+	}
+	.b-label-service__single-word {
+		display: block;
+	}
+}
+
+@media (max-width: 1400px) {
+	.b-label-service {
+		min-height: 288px;
+	}
+}
+
+@media (max-width: 768px) {
+	.b-label-service {
+		min-height: 302px;
+	}
+}
+
+@media (max-width: 640px) {
+	.b-label-service {
+		min-height: 288px;
+	}
+}

@@ -1,0 +1,4 @@
+[05-Mar-2021 12:01:16 Europe/Minsk] PHP Fatal error:  Uncaught Error: Class 'BonamiHelper' not found in /home/bonamiby/public_html/wp-content/themes/bonami/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/bonamiby/public_html/wp-content/themes/bonami/index.php on line 13
